@@ -208,7 +208,6 @@ bool HelpCommand::execute(ApplicationEngine& engine, const std::vector<std::stri
                 if (engine.getActiveEvent() != nullptr) {
                     std::cout << " Active Event Management Mode Commands:\n";
                     std::cout << "   view-details                    - See capacity & details\n";
-                    std::cout << "   show-seating                    - See full layout\n";
                     std::cout << "   edit-event <field> <value>      - Modify descriptions/tasks\n";
                     std::cout << "   cancel-event                    - Cancel the event & refund buyers\n";
                     std::cout << "   exit-event                      - Exit management mode back to main dashboard\n";
@@ -218,6 +217,7 @@ bool HelpCommand::execute(ApplicationEngine& engine, const std::vector<std::stri
                     std::cout << "   list-events                              - View all approved public events\n";
                     std::cout << "   buy-ticket <eventId> <count> [row] [col] - Purchase seats\n";
                     std::cout << "   enter-event <eventId>                    - Enter specialized management mode for your event\n";
+                    std::cout << "   show-seating <eventId>                   - See full layout\n";
                     std::cout << "   wallet                                   - Check balance / Add simulated funds\n";
                     std::cout << "   add-balance                              - Add simulated funds\n";
                     std::cout << "   notifications                            - Open notification center inbox\n";

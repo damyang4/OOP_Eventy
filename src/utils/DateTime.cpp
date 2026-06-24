@@ -3,7 +3,7 @@
 #include <sstream>
 
 DateTime::DateTime() {
-        rawTime = std::time(nullptr);
+        rawTime = std::time(nullptr); // get current time
     }
     
 
